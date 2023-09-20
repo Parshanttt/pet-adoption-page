@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    
+    border: 2px solid black;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 10px;
+    height: 600px;
+    width: 400px;
+    padding: 10px;
+
+}
+
+img{
+    width: 100%;
+    /* margin: 10px; */
+    border-radius: 25px;
+    /* align-self: center; */
+
+}
+#pets{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* #pets img, h3, p{
+    margin: 24px;
+}
+
+h1, h2{
+    margin: 20px;
+} */
+
+@media (max-width: 376px) {
+    #pets{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+
+}
